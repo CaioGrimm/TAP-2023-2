@@ -61,7 +61,7 @@ public class Ensalamento {
 	}
 	
 	public boolean alocar(Turma turma, Sala sala) {
-		
+		return true;
 	}
 	
 	public void alocarTodas() {
@@ -69,22 +69,22 @@ public class Ensalamento {
 	}
 	
 	public int getTotalTurmasAlocadas() {
-		
+		return 1;
 	}
 	
 	public int getTotalEspacoLivre() {
-		
+		return 1;
 	}
 	
 	public String relatorioResumoEnsalamento() {
-		
+		return "";
 	}
 	
 	public String relatorioTurmasPorSala() {
-		
+		return "";
 	}
 	
 	public String relatorioSalasPorTurma() {
-		
+		return "";
 	}
 }
